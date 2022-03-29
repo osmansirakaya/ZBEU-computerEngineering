@@ -1,0 +1,15 @@
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\bin\Debug\DENEME3.exe.config
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\bin\Debug\DENEME3.exe
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\bin\Debug\DENEME3.pdb
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.ebob.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.Form1.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.Properties.Resources.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.csproj.GenerateResource.cache
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.csproj.CoreCompileInputs.cache
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.exe
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.pdb
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.ekok.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.carpanlarin.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.üs.resources
+C:\Users\osman\OneDrive\Masaüstü\2021-güz\nesne-tasarım\proje deneme\DENEME3\DENEME3\obj\Debug\DENEME3.aci.resources
