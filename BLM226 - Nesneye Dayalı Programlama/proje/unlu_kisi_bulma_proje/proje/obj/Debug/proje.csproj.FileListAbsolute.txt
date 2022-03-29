@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\bin\Debug\proje.exe.config
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\bin\Debug\proje.exe
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\bin\Debug\proje.pdb
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\obj\Debug\proje.csprojAssemblyReference.cache
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\obj\Debug\proje.exe
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\proje\obj\Debug\proje.pdb
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\bin\Debug\proje.exe.config
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\bin\Debug\proje.exe
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\bin\Debug\proje.pdb
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\obj\Debug\proje.csprojAssemblyReference.cache
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\obj\Debug\proje.exe
+C:\Users\user\Desktop\beü-dersler\BAHAR\nesne\proje\B226p_osman_sirakaya\proje\obj\Debug\proje.pdb

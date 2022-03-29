@@ -1,0 +1,239 @@
+*************************************************************************NESNEYE DAYALI PROGRAMLAMA********************************************************************
+
+
+##  if, for gibi belli görevlere atanmıs kelimeleri değiskenmıs gibi kullanmak icin basına "@" işareti getirilir.
+    örnek: @if, @for --> bunları istedigimiz heryerde normal bir degisken olarak kullanabiliriz.
+
+		\n --> bir alt satıra gecer.
+		\t --> aynı satırda yanına boşluk bırakır.
+
+## 	? işleci kullanımı:
+	 a = 3; b = 8; c = 68
+	(2 * a + 1 > b) ? c : c – 20 
+	sonuc 48 olur;
+
+##  Birden cok döngü kontrol değişkeni kullanma: 
+	int i, j;
+	for(i=0, j=10; i<j; i++, j--) gibi...
+
+##  Döngü kontrolünde bool kullanma
+	int i, j;
+	bool done = false;
+	for(i=0, j=100; !done; i++, j--)
+	if(i*i >= j) 
+	done = true;
+
+##  SONSUZ DÖNGÜ
+	for(;;)
+	
+
+##  CONTİNUE KULLANIMI: döngü içinde kalan deyimleri atlayıp, döngüyü devam etmek;
+	örnek: for(int i=0 ; i<100; i++){
+		if((i%2) !=0 ) // eger sayi çift değil  ise
+		continue;      // for döngüsüne git, çift ise devam et ve ekrana yazdır; 
+		console.writeline("cift sayilar"+i);
+		}	
+		console.readkey(); 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## SINIFLAR VE NESNELER
+
+access >> erişim modu
+ public >> her yerden erişilebilir
+ private >> yalnızca sınıf (“nesne”) içinden erişilebilir.
+type >> veri tipi
+ret-type >> dönülen verinin tipi
+method >> (fonksiyon) 
+
+	* nesne yaratmak için: 
+	* building house = new building();  // house adında, building sınıfına bir değişken bildiriliyor;
+
+	* metod olusturmak için:	
+	  acces ret-type name(parameter-list)
+
+
+##  YAPICILAR
+    * sınıfın adıyla aynı ada sahiptiri	
+    * sözdizim (syntactic) olarak, methodlara benzer.
+
+	örnek: using system;
+		class MyClass{
+		 public int x ;
+		   publıc MyClass(){    // yapıcı metod sınıf adı ile aynı
+		     x=10;
+		    }
+		}
+
+##   YIKICILAR 
+	* Bir nesnenin temizce sonlandığına emin olmak için, bazı özel durumlarda bir yıkıcı metot
+	 kullanılabilir. Örneğin, bir nesneye ait olan sistem kaynağını serbest bırakmak için yıkıcı
+	 kullanılabilir. Yıkıcılara, normal şartlarda gerek duyulmaz.
+
+ 
+##  THİS 
+	* Bir metoda çağrı yapıldığında, çağıran nesneye otomatik olarak bir başvuru (referans) geçilir.		
+	 Bu başvurunun adı this’tir.
+
+	*this genelde gereksizdir, ancak ad karışıklığı dolayısıyla gerektiği durumlar olabilir.
+	this’in gerektiği durum örneği:
+		public rec(int width, int height)
+		this.width = width;
+		this.height = height;
+
+	 Yapıcının parametrelerinin adları nesneye ait örnek değişken adlarıyla aynı. Bu isimleri
+	birbirinden ayırt etmek gerekiyor.
+	
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------##  DİZİLER VE DİZGİLER
+
+	* C#’da nesneler olarak gerçeklenmiştir.
+        	* Bir-boyutlu diziler
+		type[]array-name = new type[size]; --> şeklinde tanımlanır.
+
+		int[] sample = new int[10];
+		sample --> diziye basvuru değiskeni.
+		new --> işleyiciyle yer ayırma.
+		
+		* Çok-boyutlu diziler:
+			-İki-boyutlu diziler:
+			
+			int[,] table = new int[3, 4]; --> böyle tanımlanır
+
+			-Üç ve daha fazla boyutlu diziler:
+			int[,,] multidim = new int[4, 10, 3];
+			
+##  LENGTH KULLANIMI:
+	
+		*  değişken.length --> diye kullanılabilir.Değişkenin uzunlugunu veriri
+
+
+## FOREACH KULLANIMI:
+
+		** foreach(type loopvar in collection)statemnet;
+
+			+ collection’daki, her bir type tipindeki loopvar için, statement’ı koş.
+			+ collection bir dizi olabilir, loopvar ise döngü değişkenidir.
+		 	+ loopvar yalnız okunabilir, değeri değiştirilemez.
+					
+		Örnek--> foreach(int x in nums) --> NUMS'da ki herbir tam sayi x için dön.
+
+	
+	
+##  DİZGİLER 
+	*Dizgiler (strings) >> karakter dizgileri C#’ta hazır veri tipidir, dizgiler nesnedir (string sınıfı).
+	  * string tipinde Length özelliği de var.
+	 *Tek bir karakterin değerine erişmek bir indeks aracılığıyla olur. 
+
+
+	-static string Copy(string str) >> str’nin bir kopyasını döner
+			örnek==> string değişken = string.Copy(hangi değişkenden kopyalamak istiyosan o değişkenın adı);
+
+	-int CompareTo(string str) >> çağıran dizgi str’den küçükse sıfırdan küçük, büyükse
+				     sıfırdan büyük döner. İki dizgi eşitse, sıfır döner. 
+	
+	-int IndexOf(string str) >> çağıran dizginin içinde str’yi arar. İlk eşleşmenin indeksini döner. Bulamazsa -1 döner. 
+			örnek==> IndexOf--> int değişken = değişken.IndexOf("aranacak string");
+	
+	-int LastIndexOf(string str) >> çağıran dizginin içinde str’yi arar. Son eşleşmenin indeksini döner. Bulamazsa -1 döner. 
+			örnek==> LastIndexOf> int değişken = değişken.LastIndexOf("aranacak string");
+	
+	-string ToLower() >> çağıran dizginin, bütün harfleri küçük olan kopyasını döner. 
+			örnek==> string değişken = değişken.ToLower();
+ 
+	-string ToUpper() >> çağıran dizginin, bütün harfleri büyük olan kopyasını döner.
+			örnek==> string değişken = değişken.ToUpper(); 
+ 
+	-== işleci iki dizgi (string) başvurusuna uygulandığında, dizgi içeriklerinin eşitliği kontrol edilir.
+
+	
+	
+	*Dizgiler + işleciyle art arda bağlanabilir.
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+##  METOTLAR VE SINIFLAR - I
+
+	   *İki temel sınıf üyesi türü:
+ 		*public (kamusal) >> sınıfın dışındaki koddan da erişilebilir
+		*private (özel) >> yalnız kendi sınıfında tanımlanmış metotlarca erişilebilir 
+		
+	public (doğrudan belirtilmelidir)    
+	private (belirtilmezse bu varsayılır)	
+
+
+
+##  YIGINLAR 
+	
+	-> Yığın (stack) >> son-gelen ilk-gider veri yapısı 
+	-> Yığın elemanlarına belli bir sırayla erişilir
+
+		Bir yığın için iki temel işlem: 
+			push >> yığının tepesine bir eleman koyar.  
+			pop >> yığının tepesinden bir eleman çeker. 	
+	
+	**NOT: bool veri tipi: dogru ve yanlıs olmak üzere iki deger alır. Kontrol islemlerinde kullanılır.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------##  METOTLAR VE SINIFLAR – II 
+		
+		Metotların üstüne yükleme (method overloading) 
+			* Bir sınıf tanımı içinde iki ya da daha çok metodun adı aynı olabilir.
+			* Parametre bildirimleri farklıdır. o Bu metotlara “üstüne yüklenmiş metotlar” denir. 
+			* Metotların üstüne yükleme, çokbiçimliliği gerçekleme yollarından biridir. 
+			* Her bir üstüne yüklenen metodun parametrelerinin tipi ve/veya sayısı farklı olmalı. 
+
+
+	** Program: Bazı otomatik (dolaylı) tip dönüşümleri üstüne yüklenen metodun çözümünü etkileyebilir
+			yani: motod sadece int alıyordur
+				byte gönderirisen, int alır
+				short gönderirsen int alir
+				float gönderirsen, double alır.  vs....
+
+
+
+		**	Nesneye ilk değer atama için genel biçim aşağıdadır. 
+			new sınıf-adı {ad = ifade, ad = ifade, …….} 
+
+
+
+
+
+
+## STATİC anahtar sözcüğü
+ 	*Bir sınıfın herhangi bir nesnesinden bağımsız olarak sınıf üyelerini tanımlamakta kullanılır. 
+		Örnek: 
+		Timer bir sınıf adı, count ise o sınıfın static bir üyesidir (veri). 
+		timer.count=10;
+ 
+		Timer tipinde kaç nesne olursa olsun, bütün Timer tipindeki nesneler için tek bir count kopyası vardır. count, sınıfın herhangi bir nesnesine ait 		olmayıp, sınıfın kendisine aittir. 
+ 		
+		Static bir değişken, ait olduğu sınıf kullanılmadan önce ilk değere sahip olur. Eğer kullanıcı tarafından ilk değer verilmediyse, değeri 0, null (boş) 		ya da yanlış (false) olur.
+	
+		 Normal bir metodun, sınıf tipinin bir nesnesi aracılığıyla çağrılması gerekirken, static bir metot sınıf adıyla çağırılır. Program: static kullanma 
+
+	*özyineleme(recursion)--> Bir metot kendini çağırabilir. Buna özyineleme denir. Metoda ise özyinelemeli denir.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------##  İŞLEÇLERİN ÜSTÜNE YÜKLEME   ----> 115'de kaldım  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
