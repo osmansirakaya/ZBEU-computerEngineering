@@ -1,0 +1,65 @@
+*****************************************************************MANTIKSAL PROGRAMLAMA VE PROLOG***********************************************************************
+
+	
+-Tek parametreli bileşik terime 1-çoklu, iki parametreli olana 2-çoklu, vs. denir 
+	Örnekler: 
+		man(jake) >> {jake}, man adı verilen bağıntıda bir 1-çokludur. 
+		like(bob, steak) >> {bob, steak}, like adı verilen bağıntıda bir 2- çokludur. 
+		man(fred) >> {fred}, man adı verilen bağıntıda başka bir 1- çokludur.  man bağıntısının {jake} ve {fred} diye iki farklı elemanı vardır. 
+ 
+*Bu önermelerdeki bütün basit terimler – man, jake, fred, like, bob, steak – sabittir.  
+ 
+* Önermelerin esas bir anlamı yok. Biz ne anlama getirmek istersek o anlama gelirler. 
+ 
+* like(bob, steak), “bob steak sever”, “steak bob sever” veya “bob steak gibidir” demek olabilir
+
+	
+	AnB)C	>> a ve b, c’yi gerektirir 
+	AnB-,)D	>> a ve b’nin değili, d’yi gerektirir 
+
+
+*********************************************************************************PROLOG******************************************************************************
+
+	* Her gerçek, kural ve sorgu bir nokta (.) ile sonlanır 
+
+	woman(mia).
+	woman(jody).
+
+	örnekte bir gercekler listesi vardir(2 gercek).
+
+	* Gerçekler ve kurallar ‘.pl’ uzantılı bir dosyada bulunmalıdır (bilgi-tabanı (knowledge-base)) 
+
+	**Bir bilgi tabanı üzerinde sorgular koşmak için, ilgili ‘.pl’ dosyaları Prolog anlamlandırıcı programının iş uzayına 
+	(workspace) yüklenmelidir (File menüsündeki “Consult” komutu kullanılarak). ‘.pl’ dosyalarının içeriği değiştirilerek
+	bilgi-tabanına güncelleme yapıldığında, dosyalar kaydedilmeli ve iş uzayına, File menüsündeki “Reload modified files”
+	seçeneği kullanılarak yeniden yüklenmelidir
+
+
+		( :- işleci “gösterilmektedir” anlamına geliyor  ) 
+     # Kuralları konuşturalım 
+	 * playsAirGuitar(mia) :- listensToMusic(mia) 
+		 listensToMusic(mia) doğru ise, playsAirGuitar(mia) doğrudur 
+
+	 * playsAirGuitar(yolanda) :- listensToMusic(yolanda) 
+	 	 listensToMusic(yolanda) doğru ise, playsAirGuitar(yolanda) doğrudur  
+
+	*listensToMusic(yolanda) :- happy(yolanda) 
+		  happy(yolanda) doğru ise, listensToMusic(yolanda) doğrudur 
+
+
+
+## NOT :  (,) “ve” anlamına gelmektedir 
+	  (,) içeren bileşik önermelerin doğru olması için, oradaki bütün önermeler doğru olmalı. 
+	  (;) mantıksal “veya” anlamına gelmektedir	
+	  (%) yorum satırı(tek satırlık)
+
+	**X ve Y değişkenlerdir = yer tutuculardır (placeholder) 
+
+
+
+
+
+
+
+
+
