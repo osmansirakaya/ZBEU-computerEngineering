@@ -1,0 +1,119 @@
+WIRESHARK NOTLARI,
+
+ARP VE ICMP ÝNCELEME(Þekil --> 1, 2, 3, 4, 5.1, 5.2)
+
+arp -a ile sorgula.
+ayný aðdaki cihaz arp tablosunda varsa sil yoksa devam et.
+[wireshark taramayý baþlat]
+cihaza ping at.
+[wireshark taramayý durdur]
+tekrar arp -a yap eklendiðini kontrol et.
+[Wireshark hem ARP hem de (ping atýldýðý için (echo)) ICMP paketleri yakalayacaktýr. Bunlarý incele.]
+
+
+
+
+
+IP FRAGMANTASYON (Þekil --> 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9, 6.10)
+
+ping -l 500 [IP] yazýldýðýnda 500B veriye sahip ping gönderiliyor. (Sorun yok.)
+ping -l 3000 [IP] yazýldýðýnda 3000B veri parçalanarak 1472B veriler halinde gönderiliyor. (Sorun yok.)
+ping -f -l 500 [IP] yazýldýðýnda 500B veriye sahip ping gönderilirken fragmantasyon yasaklanýyor. (1472B'yi aþmadýðý için sorun yok.)
+ping -f -l 3000 [IP] yazýldýðýnda 3000B veri fragmantasyon yasaklanarak gönderilmeye çalýþýlýyor. (Gönderilmeyecektir. Sorun var.)
+
+ping -l 4500 [IP] iþlemi yapýldýðýnda;
+
+4500 ICMP data olduðunu söyler. 4500 data + 8 ICMP header + 20 IP header = 4528B toplam veri.
+
+IP fragmantasyon için bölünecek IP data miktarý;
+4528B - 20B (IP header) = 4508B (IP data) 
+
+Fragmantasyon yapmadan önce MTU size data bölümünün 8'e bölünüp bölünmediði kontrol edilir.
+(Ethernet kullanýldýðý için MTU size 1500B'dir. 1500B = 20B IP header + 1480B IP data)
+
+O halde, her parçada 1480B IP data geçirilerek 4508B verinin geçmesi saðlanacaktýr.
+Parça 1 --> (Total Length: 1500B, Identification: X, Don't Fragment: 0, More Fragment: 1, Fragment Offset: 0)
+Parça 2 --> (TL: 1500B, ID: X, DF: 0, MF: 1, FO: 1480 (veya 1480/8=185.offset)) (normalde 185'tir ancak wireshark kolaylýk olsun diye 1480 olarak gösterir.)
+Parça 3 --> (TL: 1500B, ID: X, DF: 0, MF: 1, FO: 2960 (veya 2960/8=370.offset))
+
+Toplam geçen data 1480 * 3 = 4440B, kalan data 4508 - 4440 = 68B
+
+Parça 4 --> (TL: 88B (68B+20B), ID: X, DF: 0, MF: 0, FO: 4440 (veya 4440/8=555.offset))
+4.paket ICMP istek veya ICMP yanýtýný da taþýr.
+
+4500B'lýk ping ICMP echo verisi 4 parça halinde gider.
+
+
+
+
+
+
+TRACERT (WIN) VEYA TRACEROUTE (LINUX/UNIX) ÝNCELEME 
+Tracert iþleminde her routera 3 tane istek yollanýr. Linux-Unix ve Windows tarafýnda trace komutlarý farklý iþler.
+Linux-Unix tarafý rastgele bir port no vererek UDP ile tarama baþlatýr. Ara düðümlerde 4.katman iþlevleri olmadýðý için segment uç düðüme kadar iletilir.
+Uç düðümde böyle bir port olmayacaðý için ICMP Destination Unreachable (ICMP Type No: 3) mesajý döner. Böylece aradaki tüm routerlarýn Ip'sine ulaþýlýr.
+(Tesadüfen uç düðümde böyle bir port no varsa destination unreachable dönmez.) 
+Windows tarafýnda TTL deðeri önce 1 yapýlýr ve ilk routerdan ICMP time exceed (ICMP Type No: 11) mesajý döner. Sonra TTL 2 yapýlýr, 2.router öðrenilir.
+Bu þekilde son düðüme kadar gidilir.
+
+ICMP request:
+  TTL deðeri ayarlandýktan sonra ICMP request echo (Type 8) gönderilir.
+  Wireshark'ta bu durumda; IPv4 --> ICMP echo yapýsý ortaya çýkar. (ICMP request 64B data hazýrlamýþtýr.)
+  IPv4'ün toplam boyutu: 64B ICMP data + 8B ICMP header + 20B IP header
+  IPv4'ün toplam boyutu: 64 + 8 + 20 = 92B (TOPLAM)
+ 
+ICMP reply:
+  Yanýt olarak ICMP reply time exceed (Type 11) dönecektir.
+  Wireshark'ta bu durumda IPv4 --> ICMP --> IPv4 --> ICMP yapýsý oluþacaktýr.
+  Ýçteki - IPv4 --> ICMP yapýsý request'e atýfta bulunmaktadýr. (Ancak gönderirken data kýsmýný yüklenmemektedir.
+  Yani ekstra sadece ICMP header için 8B ve IP header için 20B eklenecektir.)
+  Dýstaki - IPv4 --> ICMP --> IPv4 --> ICMP (ICMP reply 40B data hazýrlamýþtýr.) 
+  IPv4'ün toplam boyutu: 40B ICMP data (reply için) + 8B ICMP header (içteki) + 20B IP header (içteki) + 8B ICMP header (dýþtaki) + 20B IP header (dýþtaki)
+  IPv4'ün toplam boyutu: 40 + 8 + 20 + 8 + 20 = 96B (TOPLAM)
+
+(NOT: hazýrlanan ICMP dataya göre boyut deðiþebilmektedir. ICMP data kýsmýnýn bir anlamý yok, sadece gönder-al yapýyor.) 
+(Örneðin, ICMP reply için de 64B ICMP data hazýrlanmýþ olsaydý, 64+8+20+8+20=120B TOPLAM olurdu.)
+
+ 
+Örnek: bizim makine IP'si: 192.168.1.34, tracert uyguladýðýmýz makinenin IP'si: 172.217.169.99 (google.com.tr) olsun.
+
+216.239.49.217 IP'li router A'nýn döndürdüðü ICMP reply time exceed yapýsý þu þekildedir.
+
+IPv4 --> Source: 216.239.49.217 (Router A), Destination: 192.168.1.34 (biz)
+  ICMP --> Router A'nýn hazýrladýðý ICMP time exceed bilgisi
+    IPv4 --> Source: 192.168.1.34 (biz), 172.217.169.99 (google.com.tr)
+      ICMP --> Bizim hazýrladýðýmýz ICMP echo request bilgisi
+
+(Yani Router A diyorki; senin "tracert google.com.tr" komutunun sonucu olarak ben sana böyle bir time exceed mesajý dönüyorum.)
+(Bu durum ayný makinanýn shellinde ayný anda birden fazla tracert kullanýlmasýna imkan verir.)
+Örneðin; 2 tane tracer sorgusu yaptýk ayný anda. "tracert google.com.tr", "tracert facebook.com" bu durumda Gateway veya Gateway'den sonraki router
+(muthemelen) ayný olacaktýr. Gatewayden sonraki routerý düþünelim. Döndürdüðü ICMP time exceed mesajýnýn içindeki IPv4 alaný
+olmasaydý facebook için yapýlan tracert mi? yoksa google için yapýlan tracert mi? durumu ayýrt edilemeyecekti. Haliyle ayný anda tek bir tracert'e izin verilecekti.
+
+
+
+
+
+
+TCP, UDP ÝNCELEME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
