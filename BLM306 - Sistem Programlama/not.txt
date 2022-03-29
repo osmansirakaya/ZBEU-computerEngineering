@@ -1,0 +1,18 @@
+** Standart inputtan okuyup, standart output’a değer basmak için kullanılır
+0(sıfır) tanımlayacısı: standart inputtan oku demek
+1(bir) c değişkenının adresi
+
+
+1	#include<errno.h>
+2	#include<unistd.h>
+3   
+4	int main()
+5	{
+6	char c; // karakter oluşturduk
+7   
+8	while(read(0,&c,1)==1) // stdin den veri okuyup bunu c değişkenine atıyoruz. Dönen değer 1 ise standart outo yaz
+9	
+10	write(1,&c,1); okunan her karakteri stdout a yazar
+10   
+11	return 0;
+12	}
