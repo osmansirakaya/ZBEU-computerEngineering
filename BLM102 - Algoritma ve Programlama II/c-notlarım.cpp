@@ -1,112 +1,112 @@
-/*-------------------------------------değişkenler--------------------------------------------
+/*-------------------------------------deÄŸiÅŸkenler--------------------------------------------
 
 char [20]="mufettis" --> karekter boyutunu belirler
-printf("%s") --> string ifade yazdırma 
-printf("%d")-->int ifade yazdırma
-scanf("%s", &yazdırmak istediğin değişken);
-float--> tam değeri görmek icin kullan
-printf("%f",)-->float ve double tipinde yazdırma
-double ifadeyi kullanıcıdan alma komutu --> scanf("%lf") 
+printf("%s") --> string ifade yazdÄ±rma 
+printf("%d")-->int ifade yazdÄ±rma
+scanf("%s", &yazdÄ±rmak istediÄŸin deÄŸiÅŸken);
+float--> tam deÄŸeri gÃ¶rmek icin kullan
+printf("%f",)-->float ve double tipinde yazdÄ±rma
+double ifadeyi kullanÄ±cÄ±dan alma komutu --> scanf("%lf") 
 
--------------------------------------karar yapıları-----------------------------------------
+-------------------------------------karar yapÄ±larÄ±-----------------------------------------
 
 = atama 
 == sorgulama
 mod alma-->%
 Ve-->&&
 Veya-->||
-Eşitmidir-->==
-Eşit değilmidir-->!=
+EÅŸitmidir-->==
+EÅŸit deÄŸilmidir-->!=
 
 --------------------------------switch/case--------------------------------------------------
-switch (değişken)
+switch (deÄŸiÅŸken)
 {
 case 1: ......
 case 2: ......
 }
 
 ---------------------------------------dizi--------------------------------------------------
-int değişken[2][3] ---> 2x3 boyutunda bir matris olusturdu
-int değişken[20]={,a,b,n,m};
+int deÄŸiÅŸken[2][3] ---> 2x3 boyutunda bir matris olusturdu
+int deÄŸiÅŸken[20]={,a,b,n,m};
 
-//satır ve sutunlarda 0 dan baslar. indexte oldugu gibi
+//satÄ±r ve sutunlarda 0 dan baslar. indexte oldugu gibi
 
 
 ---------------------------------------goto---------------------------------------------------
-bir nevi döngü gibi bir şey
-kullanımı şu şekilde---->  değişken:(değişken tanımlayıp iki
- nokta üst üste koy...
-programın nerden itibaren, o değişkenın oldugu yere gidip 
-calısmasını istiyorsan goto değişken adı; )
+bir nevi dÃ¶ngÃ¼ gibi bir ÅŸey
+kullanÄ±mÄ± ÅŸu ÅŸekilde---->  deÄŸiÅŸken:(deÄŸiÅŸken tanÄ±mlayÄ±p iki
+ nokta Ã¼st Ã¼ste koy...
+programÄ±n nerden itibaren, o deÄŸiÅŸkenÄ±n oldugu yere gidip 
+calÄ±smasÄ±nÄ± istiyorsan goto deÄŸiÅŸken adÄ±; )
 
 
 ------------------------------matematik fonksiyonlari------------------------------------------
 
-matematik kütüphanesi--->include<math.h>
+matematik kÃ¼tÃ¼phanesi--->include<math.h>
 
-sayini KAREKÖK aldırma komutu--->sqrt
-kullanımı: sonuc=sqrt(kullanıcıdan aldıgımız sayi değeri);
-ondalıklı taraftan kac basamak yazdırmak istiyorsan (%.5f) virgülden
+sayini KAREKÃ–K aldÄ±rma komutu--->sqrt
+kullanÄ±mÄ±: sonuc=sqrt(kullanÄ±cÄ±dan aldÄ±gÄ±mÄ±z sayi deÄŸeri);
+ondalÄ±klÄ± taraftan kac basamak yazdÄ±rmak istiyorsan (%.5f) virgÃ¼lden
 sonra 5 basaamk al demek;
 
 
-sayinin ÜSSÜNÜ aldırma komutu---> pow
-kullanımı: sonuc=pow(x,y);   x->taban
-			     y->üs
+sayinin ÃœSSÃœNÃœ aldÄ±rma komutu---> pow
+kullanÄ±mÄ±: sonuc=pow(x,y);   x->taban
+			     y->Ã¼s
 
 
-sayıyı üste ya da alta yuvarlama
-ceil-->  üste yuvarla
+sayÄ±yÄ± Ã¼ste ya da alta yuvarlama
+ceil-->  Ã¼ste yuvarla
 floor--> alta yuvarla
-kullanımı---> sonuc=ceil(değişken);
-kullanımı---> sonuc=floor(değişken);
+kullanÄ±mÄ±---> sonuc=ceil(deÄŸiÅŸken);
+kullanÄ±mÄ±---> sonuc=floor(deÄŸiÅŸken);
 	
 
-mutlak değer olarak yazdırma 
-fabs-->kullanımı sonuc=fabs(değişken);
+mutlak deÄŸer olarak yazdÄ±rma 
+fabs-->kullanÄ±mÄ± sonuc=fabs(deÄŸiÅŸken);
 
-logaritma değeri bulma
-log-->kullanımı sonuc=log(değişken);
+logaritma deÄŸeri bulma
+log-->kullanÄ±mÄ± sonuc=log(deÄŸiÅŸken);
 
 
-sin cos kullanımı da diğerleriyle aynı
+sin cos kullanÄ±mÄ± da diÄŸerleriyle aynÄ±
 --------------------------------------------PUTS GETS KULLANIMI----------------------------------------
 
-Gets ile kullanıcıdan bilgiyyi al
-puts ile ekrana yazdır
-Kullanımı-->gets(değişken); kullanıcıdan bilgiyi aldı
-	    puts(değişken); ekrana yazdırdı
+Gets ile kullanÄ±cÄ±dan bilgiyyi al
+puts ile ekrana yazdÄ±r
+KullanÄ±mÄ±-->gets(deÄŸiÅŸken); kullanÄ±cÄ±dan bilgiyi aldÄ±
+	    puts(deÄŸiÅŸken); ekrana yazdÄ±rdÄ±
 
------------------------string'de bicimlendirilmis kullanımlar--------------------------------------------
+-----------------------string'de bicimlendirilmis kullanÄ±mlar--------------------------------------------
 
-yazdırmada bosluk bırakıp yazdır:
-%18s-->18 satır yer acar ve içine yazar(sağa dayar);
-%-18s-->18 satır yer acar ve içine yazar(sola dayar);
+yazdÄ±rmada bosluk bÄ±rakÄ±p yazdÄ±r:
+%18s-->18 satÄ±r yer acar ve iÃ§ine yazar(saÄŸa dayar);
+%-18s-->18 satÄ±r yer acar ve iÃ§ine yazar(sola dayar);
 
------------------------------------------STRLEN kullnımı---------------------------------------------------
-alırken %s ile, yazdırırken %d ile***
+-----------------------------------------STRLEN kullnÄ±mÄ±---------------------------------------------------
+alÄ±rken %s ile, yazdÄ±rÄ±rken %d ile***
 girilen karakterin uzunlugunu verir
-printf("%d",strlen(değişken));
+printf("%d",strlen(deÄŸiÅŸken));
 
 ------------------------------------------------StrCpy & CtrnCpy------------------------------------------
- strcpy-->metinin tamamını kopyalar ===> strcpy(a,b)>b'yi a'ya kopyaladı;
- strncpy--> metinden istediğiniz uzunlukta kopyalama yapar===> strncpy(a,b,7)>b'den 7 karekteri, a'ya kopyala;
+ strcpy-->metinin tamamÄ±nÄ± kopyalar ===> strcpy(a,b)>b'yi a'ya kopyaladÄ±;
+ strncpy--> metinden istediÄŸiniz uzunlukta kopyalama yapar===> strncpy(a,b,7)>b'den 7 karekteri, a'ya kopyala;
 
 -----------------------------------------------strcat-------------------------------------------------------
 
-taşıma amaclı değişken(x) ve a,b;
+taÅŸÄ±ma amaclÄ± deÄŸiÅŸken(x) ve a,b;
 
 strcat(x,a);         >
-strcat(x,"boşluk");   > ekran cıktısı a b;
+strcat(x,"boÅŸluk");   > ekran cÄ±ktÄ±sÄ± a b;
 strcat(x,b);         >
 
 
 
 -----------------------------------------ENUM KULLANIMI-----------------------------------------------------
-çoklu secimlere bir alternatiftir
-manin'in disinda tanımlarınır(class yapısı gibi düsün)
-main icinde cagırılıp değişken türetilir.
-ör:
+Ã§oklu secimlere bir alternatiftir
+manin'in disinda tanÄ±mlarÄ±nÄ±r(class yapÄ±sÄ± gibi dÃ¼sÃ¼n)
+main icinde cagÄ±rÄ±lÄ±p deÄŸiÅŸken tÃ¼retilir.
+Ã¶r:
 enum sehirler
 {
   ankara,adana,amasya
@@ -117,105 +117,105 @@ il=ankara; gibi........
 }
 
 -------------------------------------------STRUCT----------------------------------------------------------
-Aralarinda mantıksal iliski bulunan fakat farklı türde bulunan ifadelerdir
-Genellikle main dısında tanımlanıp sonradan dahil ediliyor(enum ile aynı kullanımı);
+Aralarinda mantÄ±ksal iliski bulunan fakat farklÄ± tÃ¼rde bulunan ifadelerdir
+Genellikle main dÄ±sÄ±nda tanÄ±mlanÄ±p sonradan dahil ediliyor(enum ile aynÄ± kullanÄ±mÄ±);
 
 
 
-------------------------------------------POİNTER KULLANIMI------------------------------------------------
+------------------------------------------POÄ°NTER KULLANIMI------------------------------------------------
 & --> degiskenin adresini tutar;
-* --> degiskenin adresin'deki degeri gösterir;    
+* --> degiskenin adresin'deki degeri gÃ¶sterir;    
 
-Bir degiskenin adresinde ki degeri görmen icin,
-atadıgın değişken pointer tipinde olmalı yani :
+Bir degiskenin adresinde ki degeri gÃ¶rmen icin,
+atadÄ±gÄ±n deÄŸiÅŸken pointer tipinde olmalÄ± yani :
 
 int *a, b;
 b=10;
 a=&b;
 
---------------------------------------------------DEFİNE--------------------------------------------------
+--------------------------------------------------DEFÄ°NE--------------------------------------------------
 
-önişlemeci--> #define puan 2.50
-main icinde puan gördüğü heryere '2.50'yi yazdıracak;
+Ã¶niÅŸlemeci--> #define puan 2.50
+main icinde puan gÃ¶rdÃ¼ÄŸÃ¼ heryere '2.50'yi yazdÄ±racak;
 
---------------------------------------------define/makro kullanım------------------------------------------
+--------------------------------------------define/makro kullanÄ±m------------------------------------------
 #define maksimum (s1,s2) (s1>s2) ? s1 : s2 
-açıklama;
-// maksimum adında fonksiyon olusturdu, s1,s2 değişkeni olusturdu, s1>s2 ise s1 i yazdır değilse s2;
+aÃ§Ä±klama;
+// maksimum adÄ±nda fonksiyon olusturdu, s1,s2 deÄŸiÅŸkeni olusturdu, s1>s2 ise s1 i yazdÄ±r deÄŸilse s2;
 
 -----------------------------------------------metin belgesi olusturma-------------------------------------
 IO
-input   --> Giriş                  Open    --> Açma 
-output  --> Cıkış	           Close   --> Kapatma
+input   --> GiriÅŸ                  Open    --> AÃ§ma 
+output  --> CÄ±kÄ±ÅŸ	           Close   --> Kapatma
 File    --> Dosya / F              Write   --> Yazma / w
-Put     --> Yazdırma  /putc        Read    --> Okuma / r
+Put     --> YazdÄ±rma  /putc        Read    --> Okuma / r
 Add     --> Ekleme / a             Get     --> Okuma/Alma getc
 
 
-FİLE *dosya;
-dosya=fopen=("dosyanın uzantısı // ile ayır yolları","w");
+FÄ°LE *dosya;
+dosya=fopen=("dosyanÄ±n uzantÄ±sÄ± // ile ayÄ±r yollarÄ±","w");
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------##  DİZİLER VE İŞARETÇİLERİN İLİŞKİSİ DİNAMİK BELLEK AYIRMA:
+----------------------------------------------------DÄ°ZÄ°LER VE Ä°ÅARETÃ‡Ä°LERÄ°N Ä°LÄ°ÅKÄ°SÄ° DÄ°NAMÄ°K BELLEK AYIRMA---------------------------------------------
 
 
-  *İşaretçiler ve dizilerin gösterimleri birbirlerinin yerine kullanılabilir. Aşağıdaki örneklerde, ? sembolü “denktir (aynıdır)” anlamında kullanılıyor. 
+  *Ä°ÅŸaretÃ§iler ve dizilerin gÃ¶sterimleri birbirlerinin yerine kullanÄ±labilir. AÅŸaÄŸÄ±daki Ã¶rneklerde, ? sembolÃ¼ â€œdenktir (aynÄ±dÄ±r)â€ anlamÄ±nda kullanÄ±lÄ±yor. 
 	dizim[i]   ?  *(dizim+i) 
 	dizim + i   ?  &dizim[i] 
 	isaretcim[i]  ?  *(isaretcim + i) 
 	isaretcim + i  ?  &isaretcim[i]
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------## SIRALAMA, DOĞRUSAL ARAMA VE İKİLİ ARAMA :
+--------------------------------------------------SIRALAMA, DOÄRUSAL ARAMA VE Ä°KÄ°LÄ° ARAMA-------------------------------------------------------
 
-*free fonksiyonu <stdlib.h> kitaplığında tanımlı, parametre olarak herhangi bir tipte işaretçi alan ve o işaretçi aracılığıyla ayrılmış bellek bloğunu serbest 	bırakan  fonksiyondur. 
+*free fonksiyonu <stdlib.h> kitaplÄ±ÄŸÄ±nda tanÄ±mlÄ±, parametre olarak herhangi bir tipte iÅŸaretÃ§i alan ve o iÅŸaretÃ§i aracÄ±lÄ±ÄŸÄ±yla ayrÄ±lmÄ±ÅŸ bellek bloÄŸunu serbest 
+bÄ±rakan  fonksiyondur. 
  
-* rand fonksiyonu <stdlib.h> kitaplığında tanımlı, rastgele bir tamsayı üreten ve ürettiği tamsayıyı dönen fonksiyondur. 
+* rand fonksiyonu <stdlib.h> kitaplÄ±ÄŸÄ±nda tanÄ±mlÄ±, rastgele bir tamsayÄ± Ã¼reten ve Ã¼rettiÄŸi tamsayÄ±yÄ± dÃ¶nen fonksiyondur. 
  
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## DİZGİLER(STRINGS)
+--------------------------------------- DÄ°ZGÄ°LER(STRINGS)------------------------------------------------------------------------------
 
-	     *Eğer dizgileri kullanırsak, P’nin son elemanını boş karakter (‘\0’) olarak belirlemeliyiz
-	     *Aslında, C dilinde dizgiler için birçok kolaylık bulunmaktadır. Örneğin, printf() fonksiyonu
-	      dizgiler üzerinde doğrudan uygulanabilir, dizgilerin dönüşüm belirteci %s’dir. Kod aşağıdadır:
-	      printf(“%s”, P);
-
+	     *EÄŸer dizgileri kullanÄ±rsak, Pâ€™nin son elemanÄ±nÄ± boÅŸ karakter (â€˜\0â€™) olarak belirlemeliyiz
+	     *AslÄ±nda, C dilinde dizgiler iÃ§in birÃ§ok kolaylÄ±k bulunmaktadÄ±r. Ã–rneÄŸin, printf() fonksiyonu
+	      dizgiler Ã¼zerinde doÄŸrudan uygulanabilir, dizgilerin dÃ¶nÃ¼ÅŸÃ¼m belirteci %sâ€™dir. Kod aÅŸaÄŸÄ±dadÄ±r:
+	      printf(â€œ%sâ€, P);
 
 
-		** <string.h> kitaplıgı ile
-			strlen(char *S): s dizisindeki karekter sayısını döner(bos karekter saymadan)
+
+		** <string.h> kitaplÄ±gÄ± ile
+			strlen(char *S): s dizisindeki karekter sayÄ±sÄ±nÄ± dÃ¶ner(bos karekter saymadan)
 			strcpy(char *hedef, char *kaynak): kaynak dizisini hedef dizisine kopyalar.
 
-			strcmp(char *s1, char *s2): s1 ve s2 dizgileri karşılaştırır ve
-					s1<s2 ise < 0 döner	(alfabetik siraya göre )
-					s1 == s2 ise = 0 döner  (alfabetik siraya göre )
-					s1 > s2 ise > 0 döner	(alfabetik siraya göre )
-			strcat(char *hedef, char *kaynak): kaynak dizgisinin bir kopyasını hedef dizgisinin
-				sonuna ekler. Bu fonksiyonu çağırmadan önce, hedef dizgisinin boyunu artırmalıyız
-			int atoi(char *s): Bir S dizgisini karşılık gelen tamsayısına çevirir. Eğer dizgi bir
-				tamsayıya çevrilemezse 0 dönülür.	
-							atoi(“345”) 345 tamsayısını döner.
-							atoi(“abc”) 0 döner.
-							atoi(“12ad3”) 12 döner.
+			strcmp(char *s1, char *s2): s1 ve s2 dizgileri karÅŸÄ±laÅŸtÄ±rÄ±r ve
+					s1<s2 ise < 0 dÃ¶ner	(alfabetik siraya gÃ¶re )
+					s1 == s2 ise = 0 dÃ¶ner  (alfabetik siraya gÃ¶re )
+					s1 > s2 ise > 0 dÃ¶ner	(alfabetik siraya gÃ¶re )
+			strcat(char *hedef, char *kaynak): kaynak dizgisinin bir kopyasÄ±nÄ± hedef dizgisinin
+				sonuna ekler. Bu fonksiyonu Ã§aÄŸÄ±rmadan Ã¶nce, hedef dizgisinin boyunu artÄ±rmalÄ±yÄ±z
+			int atoi(char *s): Bir S dizgisini karÅŸÄ±lÄ±k gelen tamsayÄ±sÄ±na Ã§evirir. EÄŸer dizgi bir
+				tamsayÄ±ya Ã§evrilemezse 0 dÃ¶nÃ¼lÃ¼r.	
+							atoi(â€œ345â€) 345 tamsayÄ±sÄ±nÄ± dÃ¶ner.
+							atoi(â€œabcâ€) 0 dÃ¶ner.
+							atoi(â€œ12ad3â€) 12 dÃ¶ner.
 	
 
-		*** STRTOK sınavda sorumlu değiliz ***
+		*** STRTOK sÄ±navda sorumlu deÄŸiliz ***
 
-			sprintf(): Biçimlendirilmiş çıktıyı bir dizgiye gönderir.
-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			sprintf(): BiÃ§imlendirilmiÅŸ Ã§Ä±ktÄ±yÄ± bir dizgiye gÃ¶nderir.
 
 
-## ÇOK BOYUTLU DİZİLER, YAPILAR:
+-------------------------------------------------------
 
 
-	**çok boyutlu diziler		
+## Ã‡OK BOYUTLU DÄ°ZÄ°LER, YAPILAR:
+
+
+	**Ã§ok boyutlu diziler		
 	
-	int a[3][4]; --> a dizisini 3satır ve 4sutun bir tablo gibi düşünebiliriz.
+	int a[3][4]; --> a dizisini 3satÄ±r ve 4sutun bir tablo gibi dÃ¼ÅŸÃ¼nebiliriz.
 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------## YAPILAR(structure) -> veri yapıları ya da türetilmiş veri türleridir.
+------------------------------------------------ YAPILAR(structure) -> veri yapÄ±larÄ± ya da tÃ¼retilmiÅŸ veri tÃ¼rleridir.
 	
-	**örnek yapı: struct vektor a,b  --> struct anahtar sözcük, vektör değişkendir(etiket) */
+	**Ã¶rnek yapÄ±: struct vektor a,b  --> struct anahtar sÃ¶zcÃ¼k, vektÃ¶r deÄŸiÅŸkendir(etiket) */
 	
 	
 
