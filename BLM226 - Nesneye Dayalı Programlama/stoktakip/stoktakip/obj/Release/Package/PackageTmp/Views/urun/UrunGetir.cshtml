@@ -1,0 +1,42 @@
+﻿
+@model stoktakip.Models.Entity.urunler
+
+@{
+    ViewBag.Title = "UrunGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@using (Html.BeginForm("Güncelle", "urun", FormMethod.Post))
+ {
+<div class="form-group">
+
+    @Html.LabelFor(k=>k.urun_id,"Ürün ID")
+    @Html.TextBoxFor(k=>k.urun_id, new { @class = "form-control" })<br />
+
+    @Html.LabelFor(k=>k.urun_ad, "Ürün Ad")
+    @Html.TextBoxFor(k=>k.urun_ad, new { @class = "form-control" })<br />
+
+    @Html.LabelFor(k=>k.urun_kategori, "Ürün Kategori")
+    @Html.TextBoxFor(k=>k.urun_kategori, new { @class = "form-control" })<br />
+
+    @Html.LabelFor(k=>k.fiyat, "Fiyat")
+    @Html.TextBoxFor(k=>k.fiyat, new { @class = "form-control" })<br />
+
+    @Html.LabelFor(k=>k.marka, "Marka")
+    @Html.TextBoxFor(k=>k.marka, new { @class = "form-control" })<br />
+
+    @Html.LabelFor(k=>k.stok, "Stok")
+    @Html.TextBoxFor(k=>k.stok, new { @class = "form-control" })
+    <br />
+
+    <div>
+
+        <button class="btn btn-warning">ÜRÜN GÜNCELLE</button>
+
+    </div>
+
+</div>
+ }
+
+        
+

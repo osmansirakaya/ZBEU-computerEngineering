@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\osman\OneDrive\Masaüstü\4.Sınıf-Bahar\BLM428 - Bulut Bilişim\stoktakip\stoktakip\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\osman\OneDrive\Masaüstü\4.Sınıf-Bahar\BLM428 - Bulut Bilişim\stoktakip\stoktakip\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\osman\OneDrive\Masaüstü\4.Sınıf-Bahar\BLM428 - Bulut Bilişim\stoktakip\stoktakip\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

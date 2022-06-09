@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "UrunEkle";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div style=" width:1139px; height:85px;  background-image: url('../../images/depo.png');">
+
+</div><br />
+
+
+<form class="form-group" method="post">
+    <div>
+        <label>Ürün Adı</label>
+        <input type="text" class="form-control" name="urun_ad" required="" />
+    </div>
+
+    <div>
+        <label>Kategori Seçiniz</label>
+        <input type="text" class="form-control" name="urun_kategori" required="" />
+    </div>
+
+    <div>
+        <label>Fiyat</label>
+        <input type="text" class="form-control" name="fiyat" required="" />
+    </div>
+
+    <div>
+        <label>Marka</label>
+        <input type="text" class="form-control" name="marka" required="" />
+    </div>
+
+    <div>
+        <label>Stok Adet</label>
+        <input type="text" class="form-control" name="stok" required="" />
+        <br />
+    </div>
+
+    <button class="btn btn-info">Ürün Ekle</button>
+</form>
+

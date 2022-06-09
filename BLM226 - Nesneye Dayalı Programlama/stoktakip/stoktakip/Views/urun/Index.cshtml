@@ -1,0 +1,41 @@
+﻿@using stoktakip.Models.Entity
+
+@model List<urunler>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div style=" width:1139px; height:100px;  background-image: url('../../images/banner.png');">
+
+</div>
+<table class="table table-striped text-center bg-danger">
+    <thead class="bg-primary">
+        <th class="text-center">ÜRÜN ID</th>
+        <th class="text-center" >ÜRÜN AD</th>
+        <th  class="text-center">ÜRÜN KATEGORİSİ</th>
+        <th class="text-center">ÜRÜN FİYATI</th>
+        <th class="text-center">MARKA</th>
+        <th class="text-center">STOK</th>
+        <th class="text-center">SİL</th>
+        <th class="text-center">GÜNCELLE</th>
+    </thead>
+    <tbody>
+        @foreach(var urn in Model)
+            {
+        <tr>
+            <td>@urn.urun_id</td>
+            <td>@urn.urun_ad</td>
+            <td>@urn.urun_kategori</td>
+            <td>@urn.fiyat</td>
+            <td>@urn.marka</td>
+            <td>@urn.stok</td>
+            <td><a href="/Urun/Sil/@urn.urun_id" class="btn btn-danger">SİL</a> </td>
+            <td><a href ="/Urun/UrunGetir/@urn.urun_id"class="btn btn-success">GÜNCELLE</a></td>
+        </tr>
+            }
+    </tbody>
+</table>
+<a href="/urun/UrunEkle"class=" btn btn-primary"> Yeni Ürün Ekle</a>
+

@@ -1,0 +1,25 @@
+﻿@model stoktakip.Models.Entity.kategoriler
+
+@{
+    ViewBag.Title = "KategoriGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div style="background-repeat:no-repeat; width: 1000px; height: 100px; background-image: url('../../images/updates.png');">
+
+</div>
+<br />
+
+@using (Html.BeginForm("Güncelle", "ketegori", FormMethod.Post))
+{
+    <div class="form-group">
+
+        @Html.LabelFor(k => k.kategori_id, "Ketegori ID")
+        @Html.TextBoxFor(k => k.kategori_id, new { @class = "form-control" })<br />
+
+        @Html.LabelFor(k => k.kategori_ad, "Kategori Ad")
+        @Html.TextBoxFor(k => k.kategori_ad, new { @class = "form-control" })
+        <br />
+        <div> <button class="btn btn-warning">KATEGORİ GÜNCELLE</button></div>
+    </div>
+}
+

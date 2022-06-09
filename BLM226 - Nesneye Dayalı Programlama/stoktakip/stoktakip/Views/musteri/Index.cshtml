@@ -1,0 +1,39 @@
+﻿@using stoktakip.Models.Entity
+
+@model List<musteriler>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+<div style=" width:1139px; height:100px;  background-image: url('../../images/banner.png');">
+
+</div>
+
+<table class="table table-striped text-center bg-danger">
+    <thead class="bg-primary">
+        <th class="text-center">MÜŞTERİ ID</th>
+        <th class="text-center">MÜŞTERİ AD</th>
+        <th class="text-center">MÜŞTERİ SOYAD</th>
+        <th class="text-center">SİL</th>
+        <th class="text-center">GÜNCELLE</th>
+    </thead>
+    <tbody>
+        @foreach (var mstr in Model)
+        {
+            <tr style="">
+                <td>@mstr.musteri_id</td>
+                <td>@mstr.musteri_ad</td>
+                <td>@mstr.musteri_soyad</td>
+                <td><a href="/musteri/Sil/@mstr.musteri_id" class="btn btn-danger">SİL</a> </td>
+                <td><a href="/musteri/MusteriGetir/@mstr.musteri_id" class="btn btn-success">GÜNCELLE</a></td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/musteri/YeniMusteri" class=" btn btn-primary"> Yeni Müşteri Ekle</a>
+
+
+

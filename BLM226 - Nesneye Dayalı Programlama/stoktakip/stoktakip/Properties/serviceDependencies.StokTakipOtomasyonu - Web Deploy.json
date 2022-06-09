@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bulut1/databases/mvcstok",
+      "type": "mssql.azure",
+      "connectionId": "mvcstokEntities",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

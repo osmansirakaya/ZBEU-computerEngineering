@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="mvcstokEntities-Web.config Connection String" description="mvcstokEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Entity.Model1.csdl|res://*/Models.Entity.Model1.ssdl|res://*/Models.Entity.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=mvcstok;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\osman\\OneDrive\\Masaüstü\\4\.Sınıf-Bahar\\BLM428\ -\ Bulut\ Bilişim\\stoktakip\\stoktakip\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mvcstokEntities']/@connectionString" />
+  </parameter>
+</parameters>
