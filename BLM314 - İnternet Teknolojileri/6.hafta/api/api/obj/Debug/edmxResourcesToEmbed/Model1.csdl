@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="intTek2oKullaniciModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="kullanici">
+    <Key>
+      <PropertyRef Name="kullaniciID" />
+    </Key>
+    <Property Name="kullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="adSoyad" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="mailAdresi" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="sifre" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="tc" Type="String" MaxLength="11" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="adres" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="tel" Type="String" MaxLength="11" FixedLength="true" Unicode="true" />
+    <Property Name="dogumTarihi" Type="DateTime" Precision="0" />
+    <Property Name="kayitTarihi" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="intTek2oKullaniciEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="kullanici" EntityType="Self.kullanici" />
+  </EntityContainer>
+</Schema>

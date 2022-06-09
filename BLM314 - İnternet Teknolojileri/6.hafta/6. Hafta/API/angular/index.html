@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="angular.min.js"></script>
+    <script src="ng.js"></script>
+    <style>
+        td, th {
+            border:1px solid red;
+        }
+    </style>
+</head>
+<body ng-app="bilmuh" ng-controller="KullaniciIslemleriCtrl">
+    <table>
+        <tr>
+            <th>AdSoyad</th>
+            <th>MailAdresi</th>
+            <th>TC</th>
+            <th>KayitTarihi</th>
+            <th>İşlemler</th>
+        </tr>
+        <tr ng-repeat="x in kullanicilar">
+            <td>{{x.AdSoyad}}</td>
+            <td>{{x.MailAdresi}}</td>
+            <td>{{x.TC}}</td>
+            <td>{{x.KayitTarihi}}</td>
+            <td><button style="background-color:red;" ng-click="kullanicisil(x.KullaniciID, $index)">Sil</button></td>
+        </tr>
+    </table>
+</body>
+</html>

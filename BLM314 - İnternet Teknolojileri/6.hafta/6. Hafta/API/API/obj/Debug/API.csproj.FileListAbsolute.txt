@@ -1,0 +1,108 @@
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\csc.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\vbc.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\API.dll.config
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\API.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\API.pdb
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Antlr3.Runtime.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Newtonsoft.Json.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Net.Http.Formatting.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Helpers.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.WebHost.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Mvc.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Optimization.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Razor.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\WebGrease.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Newtonsoft.Json.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Net.Http.Formatting.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Helpers.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.WebHost.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Mvc.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Optimization.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Razor.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\Antlr3.Runtime.pdb
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\obj\Debug\API.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\obj\Debug\API.pdb
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\EntityFramework.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\EntityFramework.SqlServer.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\EntityFramework.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\EntityFramework.SqlServer.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Cors.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.Cors.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\API\bin\System.Web.Http.Cors.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\csc.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\vbc.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\API.dll.config
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\API.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\API.pdb
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Antlr3.Runtime.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\EntityFramework.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\EntityFramework.SqlServer.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Newtonsoft.Json.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Net.Http.Formatting.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Cors.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Helpers.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.Cors.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.WebHost.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Mvc.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Optimization.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Razor.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\WebGrease.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\EntityFramework.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\EntityFramework.SqlServer.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Net.Http.Formatting.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.Cors.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Newtonsoft.Json.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Helpers.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Http.WebHost.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Mvc.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Optimization.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.Razor.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\bin\Antlr3.Runtime.pdb
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\obj\Debug\API.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\API\obj\Debug\API.pdb

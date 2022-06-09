@@ -1,0 +1,42 @@
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\csc.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\vbc.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\VBCSCompiler.exe
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\angular.dll.config
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\angular.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\angular.pdb
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\obj\Debug\angular.csprojResolveAssemblyReference.cache
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\obj\Debug\angular.dll
+C:\Users\SUE\Desktop\int 2o\6. Hafta\API\angular\obj\Debug\angular.pdb
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\csc.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\vbc.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\VBCSCompiler.exe
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\angular.dll.config
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\angular.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\angular.pdb
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\obj\Debug\angular.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\obj\Debug\angular.csproj.CoreCompileInputs.cache
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\obj\Debug\angular.csproj.CopyComplete
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\obj\Debug\angular.dll
+C:\Users\osman\OneDrive\Masaüstü\3.sınıf bahar\İnternet Teknolojileri\6.hafta\6. Hafta\API\angular\obj\Debug\angular.pdb
